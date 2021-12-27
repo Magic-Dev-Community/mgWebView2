@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebView2 Demo Page</title>
+</head>
+<body>
+
+<h3>Simple Embedded WebView2 Roundtrip Scripting Demo</h3>
+
+<table>
+  <tr>
+    <td>First Name</td>
+    <td><input id="firstname" value=""></td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td><input id="lastname" value=""></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="button" value="Send to Magic" onclick="javascript:raiseMagic();"></td>
+  </tr>
+</table>
+
+
+<script>
+<!--
+
+function raiseMagic()
+{
+
+	window.location.href = "#raise_magic";
+	window.location.href = "#";
+}
+
+function resetValues()
+{
+	document.getElementById("firstname").value = ""
+	document.getElementById("lastname").value = ""
+}
+
+//-->
+</script>
+
+</body>
+</html>
