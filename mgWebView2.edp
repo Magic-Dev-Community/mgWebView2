@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="mgWebView2"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <VCUseGitPlugin val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{C42E1CCE-E1B2-40BA-BEFF-72757C9B6338}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="14071.00"/>
+  </_Project>
+
+</Application>
