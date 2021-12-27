@@ -1,0 +1,22 @@
+Prerequisties
+-------------
+
+Install WebView2 
+
+from https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+downlolad the latest fixed version x86 architecture installer.
+
+This will be something like:
+Microsoft.WebView2.FixedVersionRuntime.96.0.1054.62.x86.cab
+
+Install this on Windows.
+
+A few necessary assemblies will be installed to
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Web Live Preview
+
+We'll reference these in the component repository of Magic.
+
+
+Demo Walkthrough
+----------------
+
