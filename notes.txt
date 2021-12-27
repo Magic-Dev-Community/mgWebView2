@@ -4,7 +4,7 @@ Prerequisties
 Install WebView2 
 
 from https://developer.microsoft.com/en-us/microsoft-edge/webview2/
-downlolad the latest fixed version x86 architecture installer.
+download the latest fixed version x86 architecture installer.
 
 This will be something like:
 Microsoft.WebView2.FixedVersionRuntime.96.0.1054.62.x86.cab
@@ -69,4 +69,4 @@ Again, in the program, you'll see only a few lines and a few c# snippets providi
 
 Finally, WebView2 Dashboard Example is an early preview of a hosted Admin Dashboard showing more graphically appealing layouts are easily achievable.
 This demo currently has no browser-Magic interactivity or setup, we'll add that, though you can interact with the hosted webpage.
-
+The admin dashboard displayed is just for illustrative purposes, a later demo will integrate an open source set of html, js and css.
