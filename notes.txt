@@ -20,3 +20,53 @@ We'll reference these in the component repository of Magic.
 Demo Walkthrough
 ----------------
 
+There are 3 small demo programs in the application:
+
+Simple WebView2 Demo
+WebView2 Roundtrip Scripting
+WebView2 Dashboard Example
+
+These demonstrate how to use and interact with the latest Microsoft embedded web browser control, WebView2.
+
+This replaces the old Edge embedded browser.
+
+Magic 4.8 will introduce support for CEFSharp as alternative which I have yet to install, this preview offers an alternative approach.
+
+Let's walk through the demo programs.
+
+Simple WebView2 Demo is a bare bones online program that hosts a WebView2 control.
+Click Go to see the control activate displaying the Google Search homepage.
+Click Send to send a query term from Magic to the browser and activate the search.
+You can also use the browser control as normal.
+Context menus and developer tools have been disabled in the code.
+You can click Get as a simple example of getting the page source (we'll do more sophisticated calls in later demos).
+Hit OK to exit.
+
+You'll see the program contains only a few lines and a few c# snippets to manage this integration.
+
+Next, run WebView2 Roundtrip Scripting
+Again, a bare bones program sample however it does demonstrate the following practical features:
+We can load a page from disk.
+We can interact with the page like any.
+We can trigger events (here clicking a button in the page) that are captured by Magic allowing it to process events in response.
+From Magic we can query the page and data to retrieve the data field values into Magic.
+We can execute scripts in the browser and also set or push in values from Magic.
+This means that we can render complex forms, charts, diagrams, tables, maps and have 2-way communication between the browser and Magic.
+
+Let's see that in action in WebView2 Roundtrip Scripting.
+Click Load WebView2 to load a simple html page from disk. 
+In the web page, enter first name, last name and click the browser Send to Magic button.
+You'll see those values are captured in the Magic virtual fields on the form to the right.
+A reset script clears those values in the browser.
+We can play with the Get from WebView2 and Send to WebView2 buttons acting as you'd expect.
+Finally we can also set the contents of the browser from a simple string (for illustration).
+Click Set WebView2 from String.
+Click OK to exit.
+
+You'll see simple roundtrip control and integration of arbitrary data back and forth.
+
+Again, in the program, you'll see only a few lines and a few c# snippets providing this functionality.
+
+Finally, WebView2 Dashboard Example is an early preview of a hosted Admin Dashboard showing more graphically appealing layouts are easily achievable.
+This demo currently has no browser-Magic interactivity or setup, we'll add that, though you can interact with the hosted webpage.
+
